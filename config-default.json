@@ -1,0 +1,9 @@
+{
+  "clientId": "REPLACE WITH BOT'S CLIENT ID",
+  "guildId": "REPLACE WITH DISCORD SERVER'S GUILD ID",
+  "token": "REPLACE WITH BOT'S TOKEN",
+  "baseCardImageUrl": "https://files.cabbit.dev/vibes/card/",
+  "cardImageExtension": ".png",
+  "baseCardArtImageUrl": "https://files.cabbit.dev/vibes/cardart/",
+  "cardArtImageExtension": ".lg.jpg"
+}
