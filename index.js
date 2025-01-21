@@ -70,7 +70,7 @@ client.on('interactionCreate', async interaction => {
       var cardtext = cardinfo.cardText;
       cardtext = cardtext.replace(/\|/g, ' ');
       cardtext = cardtext.trim();
-      if (cardtype == 'Rod' || cardtype == 'Fishsicle') {
+      if (cardtype == 'Rod' || cardtype == 'Fishsicle' || cardtype == '???') {
         embedMessage = cardinfo.color + '; ' + cardinfo.type + '; ' + cardinfo.rarity + '; ' + cardtext;
       }
       else if (cardtype == 'Relic' || cardtype == 'Action') {
