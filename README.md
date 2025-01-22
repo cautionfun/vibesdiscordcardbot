@@ -7,7 +7,7 @@ First, setup [Node.js](https://nodejs.org/en/).
 Install the following:
 
 ```
-npm install discord.js sqlite3
+npm install discord.js sqlite3 canvas
 ```
 
 Edit `config-default.json` with the appropriate values and save as `config.json`.
@@ -37,6 +37,7 @@ node index.js
 ```
 /card <card-name>
 /cardart <card-name>
+/deck <deck-JSON>
 ```
 
 ## Thanks
