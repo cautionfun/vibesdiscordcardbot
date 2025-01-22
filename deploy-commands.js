@@ -16,6 +16,12 @@ const commands = [
     .addStringOption(option => option.setName('query')
       .setDescription('Card name')
       .setRequired(true)),
+  new SlashCommandBuilder()
+    .setName('deck')
+    .setDescription('Generate a deck image from JSON input.')
+    .addStringOption(option => option.setName('json')
+        .setDescription('Deck JSON from Vibes client')
+        .setRequired(true)),
 ]
         .map(command => command.toJSON());
 
